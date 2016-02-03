@@ -1,5 +1,7 @@
 language: java
-script: ./travis-tool.sh run_tests
+script: 
+    - pwd
+    - ./travis-tool.sh run_tests
 
 before_install:
     - pwd
